@@ -15,14 +15,12 @@ jobs:
         with:
           script: |
             try {
-              const { data } = await github.rest.pages.createSite({
+              const { data } = await github.rest.repos.createPagesSite({
                 owner: context.repo.owner,
                 repo: context.repo.repo,
-                request: {
-                  source: {
-                    branch: 'master',
-                    path: '/'
-                  }
+                source: {
+                  branch: 'master',
+                  path: '/'
                 }
               })
               console.log('Pages enabled:', JSON.stringify(data))
