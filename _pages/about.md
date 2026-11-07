@@ -28,7 +28,7 @@ I am a first-year PhD candidate at the HKUST NLP Group, supervised by Prof. Junx
 
 ## Publications
 
-*** denotes my equal contribution? No — bold marks my own name.
+My own name is bolded in the author lists.
 
 **2025**
 
