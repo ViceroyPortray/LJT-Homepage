@@ -31,7 +31,7 @@ redirect_from:
 
 ## Publications
 
-{% assign cv_publications = site.publications | sort: "date" | reverse %}
+{% assign cv_publications = site.publications | sort: "pub_order" %}
 <ul>{% for post in cv_publications %}
   {% include archive-single-cv.html %}
 {% endfor %}</ul>
