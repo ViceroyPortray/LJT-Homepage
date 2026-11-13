@@ -26,14 +26,6 @@ I am a first-year PhD candidate at the HKUST NLP Group, Hong Kong University of 
 - **Research Intern**, Shanghai AI Lab, June 2023–December 2023
   - Advisor: Prof. Yu Cheng
 
-## Research Interests and Skills
-
-- Natural language processing
-- Machine learning
-- LLM Reasoning and Reinforcement Learning
-- Hallucination in Vision-Language Models (VLM)
-- LLM Truthfulness and Interpretability
-
 ## Publications
 
 1. **Junteng Liu**, Yuanxiang Fan, Zhuo Jiang, Han Ding, Yongyi Hu, Chi Zhang, Yiqi Shi, Shitong Weng, Aili Chen, Shiqi Chen, Yunan Huang, Mozhi Zhang, Pengyu Zhao, Junjie Yan, Junxian He. “SynLogic: Synthesizing Verifiable Reasoning Data at Scale for Learning Logical Reasoning and Beyond.” *arXiv*, 2025. First author. Has GitHub code repository.
@@ -42,6 +34,14 @@ I am a first-year PhD candidate at the HKUST NLP Group, Hong Kong University of 
 4. Shiqi Chen, Miao Xiong, **Junteng Liu**, Zhengxuan Wu, Teng Xiao, Siyang Gao, Junxian He. “In-Context Sharpness as Alerts: An Inner Representation Perspective for Hallucination Mitigation.” *ICML 2024*.
 5. Yuzhen Huang, Yuzhuo Bai, Zhihao Zhu, Junlei Zhang, Jinghan Zhang, Tangjun Su, **Junteng Liu**, Chuancheng Lv, Yikai Zhang, Jiayi Lei, Yao Fu, Maosong Sun, Junxian He. “C-Eval: A Multi-Level Multi-Discipline Chinese Evaluation Suite for Foundation Models.” *NeurIPS 2023*.
 6. Jinghan Zhang, Shiqi Chen, **Junteng Liu**, Junxian He. “Composing Parameter-Efficient Modules with Arithmetic Operations.” *NeurIPS 2023*.
+
+## Research Interests and Skills
+
+- Natural language processing
+- Machine learning
+- LLM Reasoning and Reinforcement Learning
+- Hallucination in Vision-Language Models (VLM)
+- LLM Truthfulness and Interpretability
 
 ## Awards
 

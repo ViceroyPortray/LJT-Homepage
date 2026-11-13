@@ -29,6 +29,12 @@ redirect_from:
   * Shanghai AI Lab
   * Advisor: Prof. Yu Cheng
 
+## Publications
+
+<ul>{% for post in site.publications reversed %}
+  {% include archive-single-cv.html %}
+{% endfor %}</ul>
+
 ## Skills
 
 * Natural language processing
@@ -36,12 +42,6 @@ redirect_from:
 * LLM Reasoning and Reinforcement Learning
 * Hallucination in Vision-Language Models (VLM)
 * LLM Truthfulness and Interpretability
-
-## Publications
-
-<ul>{% for post in site.publications reversed %}
-  {% include archive-single-cv.html %}
-{% endfor %}</ul>
 
 ## Awards
 
