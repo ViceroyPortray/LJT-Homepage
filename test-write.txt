@@ -1,1 +1,7 @@
-a & b = c: d "quote" 'apos' # hash? query=x&user=y
+excerpt_separator: "\n\n"
+allowedFields: ['name', 'email', 'url', 'message']
+filename: comment-{@timestamp}
+comments: ["<!-- ", " -->"]
+permalink: /:collection/:path/
+assets: js/_main.js
+`backticks` <base_path> [your] {x} *NOT* ! % ~ | ^
