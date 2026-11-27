@@ -1,7 +1,0 @@
-excerpt_separator: "\n\n"
-allowedFields: ['name', 'email', 'url', 'message']
-filename: comment-{@timestamp}
-comments: ["<!-- ", " -->"]
-permalink: /:collection/:path/
-assets: js/_main.js
-`backticks` <base_path> [your] {x} *NOT* ! % ~ | ^
