@@ -11,26 +11,11 @@ author_profile: true
 
 {% include base_path %}
 
-<!-- New style rendering if publication categories are defined -->
-{% if site.publication_category %}
-  {% for category in site.publication_category  %}
-    {% assign title_shown = false %}
-    {% for post in site.publications reversed %}
-      {% if post.category != category[0] %}
-        {% continue %}
-      {% endif %}
-      {% unless title_shown %}
-        <h2>{{ category[1].title }}</h2><hr />
-        {% assign title_shown = true %}
-      {% endunless %}
-      {% include archive-single.html %}
-    {% endfor %}
-  {% endfor %}
-{% else %}
-  {% for post in site.publications reversed %}
-    {% include archive-single.html %}
-  {% endfor %}
-{% endif %}
-
-
-
+<ol>
+  <li>Junteng Liu, Yuanxiang Fan, Zhuo Jiang, Han Ding, Yongyi Hu, Chi Zhang, Yiqi Shi, Shitong Weng, Aili Chen, Shiqi Chen, Yunan Huang, Mozhi Zhang, Pengyu Zhao, Junjie Yan, Junxian He. "<i>SynLogic: Synthesizing Verifiable Reasoning Data at Scale for Learning Logical Reasoning and Beyond.</i>" <i>Arxiv</i>, 2025 (first author; GitHub code repository).</li>
+  <li>Junteng Liu, Weihao Zeng, Xiwen Zhang, Yijun Wang, Zifei Shan, Junxian He. "<i>On the Perception Bottleneck of VLMs for Chart Understanding.</i>" <i>Arxiv</i>, 2025 (first author; GitHub code repository: Vision4Chart).</li>
+  <li>Junteng Liu, Shiqi Chen, Yu Cheng, Junxian He. "<i>On the Universal Truthfulness Hyperplane Inside LLMs.</i>" <i>EMNLP 2024</i> (first author; GitHub code repository: Universal_Truthfulness_Hyperplane).</li>
+  <li>Shiqi Chen, Miao Xiong, Junteng Liu, Zhengxuan Wu, Teng Xiao, Siyang Gao, Junxian He. "<i>In-Context Sharpness as Alerts: An Inner Representation Perspective for Hallucination Mitigation.</i>" <i>ICML 2024</i> (co-author).</li>
+  <li>Yuzhen Huang, Yuzhuo Bai, Zhihao Zhu, Junlei Zhang, Jinghan Zhang, Tangjun Su, Junteng Liu, Chuancheng Lv, Yikai Zhang, Jiayi Lei, Yao Fu, Maosong Sun, Junxian He. "<i>C-Eval: A Multi-Level Multi-Discipline Chinese Evaluation Suite for Foundation Models.</i>" <i>NeurIPS 2023</i> (co-author).</li>
+  <li>Jinghan Zhang, Shiqi Chen, Junteng Liu, Junxian He. "<i>Composing Parameter-Efficient Modules with Arithmetic Operations.</i>" <i>NeurIPS 2023</i> (co-author).</li>
+</ol>
